@@ -16,13 +16,13 @@ body {
 .cards {
   width: calc(100% - 2em);
   display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 1em;
-    grid-template-areas:
-      "a a b c"
-      "a a d d";
-    width: 80%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+  grid-template-areas:
+    "a a b c"
+    "a a d d";
+  width: 80%;
 }
 
 .card {
@@ -85,8 +85,8 @@ body {
   }
   &-label {
     position: absolute;
-    top: .45rem;
-    left: .45rem;
+    top: 0.45rem;
+    left: 0.45rem;
     background: #089f8a;
     text-transform: uppercase;
     font-weight: 300;
@@ -119,8 +119,8 @@ body {
     }
     &:after {
       position: absolute;
-      top: .5em;
-      left: .5em;
+      top: 0.5em;
+      left: 0.5em;
       width: calc(100% - 1em);
       height: calc(100% - 1em);
       content: "";
@@ -156,7 +156,7 @@ body {
         content: "Sign Up";
         opacity: 0.5;
         filter: blur(10px);
-        transition: all .25s ease;
+        transition: all 0.25s ease;
         z-index: 2;
         background: linear-gradient(
           60deg,
